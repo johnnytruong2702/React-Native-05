@@ -1,0 +1,57 @@
+.flex-container{
+    background-color: rgb(235, 233, 233);
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-item{
+    width: 45%;
+    height: 222px;
+    border-radius: 15px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: 10px;
+    margin: 7px;
+    background-color: white;
+}
+
+.icon{
+    display: flex;
+    justify-content: end;
+}
+
+.heart{
+    width: 20px;
+}
+
+.shoes{
+    width: 100%;
+    height: 85%;
+    text-align: center;
+}
+
+.shoes-image{
+    width: 100%;
+    height: 100%;
+}
+
+.shoesName{
+    font-size: 10px;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+.price{
+    margin-top: 10px;
+    font-weight: 600;
+}
